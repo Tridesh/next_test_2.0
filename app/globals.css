@@ -86,22 +86,53 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: lightblue;
 }
-
-a {
-  color: inherit;
+.nav_right {
+  /* position: absolute; */
+  display: flex;
+  float: right;
+  gap: 50px;
+  padding: 30px;
+}
+.nav_right a {
   text-decoration: none;
+  color: black;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.nav_right a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.pandalogo {
+  position: absolute;
+  border-radius: 100px;
+  top: 2vh;
+  left: 2vw;
+}
+.text {
+  position: absolute;
+  top: 40vh;
+  left: 5vw;
+  font-size: 2vw;
+}
+.pic {
+  position: absolute;
+  right: 3vw;
+  top: 20vh;
+}
+.pic:hover {
+  scale: 1.1;
+}
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 2vh;
+  justify-content: space-between;
+  gap: 30vw;
+  text-align: center;
+  padding-left: 5vw;
+}
+button {
+  width: 10vw;
+  height: 4vh;
 }

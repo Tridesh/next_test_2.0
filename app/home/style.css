@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2vw;
+    background-color: gray;
+    color: brown;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: red;
+}
