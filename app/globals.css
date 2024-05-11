@@ -134,5 +134,9 @@ body {
 }
 button {
   width: 10vw;
-  height: 4vh;
+  height: 6vh;
+  border-radius: 10px;
+}
+.body-content {
+  background-color: rgb(67, 67, 241);
 }

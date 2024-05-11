@@ -18,24 +18,26 @@ export default function Home() {
           <Image className = "pandalogo" src={logo} alt="logo" width={60}></Image>
         </div>
       </div>
-      <div className="text">
-        <div>
-        "Unravel the enigmatic world of pandas:
+      <div className="body-content">
+        <div className="text">
+          <div>
+          "Unravel the enigmatic world of pandas:
+          </div>
+          <div>
+          Discover their playful antics,
+          </div>
+          <div>
+          curious habits, and mysterious ways here."
+          </div>
         </div>
         <div>
-        Discover their playful antics,
+          <Image className="pic" src={pic} alt="panda photo" width={600}></Image>
         </div>
-        <div>
-        curious habits, and mysterious ways here."
-        </div>
-      </div>
-      <div>
-        <Image className="pic" src={pic} alt="panda photo" width={600}></Image>
       </div>
       <div className="footer">
-        <button><div>Footer 1</div></button>
-        <button><div>Footer 2</div></button>
-        <button><div>Footer 3</div></button>
+        <a href = "./blogs/blog1"><button><div>Blog 1</div></button></a>
+        <a href = "./blogs/blog2"><button><div>Blog 2</div></button></a>
+        <a href = "./blogs/blog3"><button><div>Blog 3</div></button></a>
       </div>
     </div>
   );
