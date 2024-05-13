@@ -17,6 +17,7 @@ export default function Home() {
         <div className="logo">
           <Image className = "pandalogo" src={logo} alt="logo" width={60}></Image>
         </div>
+        <div className="compname">Panda Spot</div>
       </div>
       <div className="body-content">
         <div className="text">
