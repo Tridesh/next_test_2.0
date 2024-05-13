@@ -2,9 +2,11 @@ import Image from "next/image";
 import "./style.css";
 import profile from "/public/profile.png";
 import panda from "/public/panda_blog1.jpeg";
+import logo from "/public/pandalogo.jpg";
 export default function Home() {
     return(
         <div>
+            <Image className = "logo" src={logo} width={60}></Image>
             <div className="compName">Panda Spot</div>
             <a href="/app/page.js"><div className="back">Back to Home🔙</div></a>
             <div className="topic">
