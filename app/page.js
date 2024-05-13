@@ -36,8 +36,8 @@ export default function Home() {
       </div>
       <div className="footer">
         <a href = "./blogs/blog1"><button><div>Blog 1</div></button></a>
-        <a href = "./blogs/blog2"><button><div>Blog 2</div></button></a>
-        <a href = "./blogs/blog3"><button><div>Blog 3</div></button></a>
+        <a href = "./blogs/blog1"><button><div>Blog 2</div></button></a>
+        <a href = "./blogs/blog1"><button><div>Blog 3</div></button></a>
       </div>
     </div>
   );

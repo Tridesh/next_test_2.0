@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'custom';
+    src: url("/public/sansfont.ttf");
+}
+div {
+    font-family: sans-serif;
+}
+.back_color {
+    background-color: rgb(255, 255, 135);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.compName {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.back {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.back:hover {
+    color: red;
+    text-decoration: underline;
+}
+.topic {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+}
+.profile {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.name-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px; 
+}
+.details {
+    margin-left: 20px; 
+    margin-top: 45px;
+}
+.wallpaper {
+    text-align: center;
+}
+.panda {
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.intro {
+    margin-top:40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#head {
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.point {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+}
