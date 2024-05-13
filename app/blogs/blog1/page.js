@@ -6,7 +6,7 @@ export default function Home() {
     return(
         <div>
             <div className="compName">Panda Spot</div>
-            <a href="./page.js"><div className="back">Back to Home🔙</div></a>
+            <a href="/app/page.js"><div className="back">Back to Home🔙</div></a>
             <div className="topic">
             Unlocking the Mysteries of Panda Behavior: Insights into the Gentle Giants.
             </div>
