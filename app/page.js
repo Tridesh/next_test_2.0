@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Image className="pic" src={pic} alt="panda photo" width={600}></Image>
+          <Image className="pic" src={pic} alt="panda photo"></Image>
         </div>
       </div>
       <div className="footer">
